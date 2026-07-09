@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1FolderMessagesFlagsBulkRequest } from 'hostinger-email-api-sdk';
+import { V1FolderMessagesFlagsBulkRequest } from 'hostinger-mail-api-sdk';
 
 const instance: V1FolderMessagesFlagsBulkRequest = {
     uids,

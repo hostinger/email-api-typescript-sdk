@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { Pagination } from 'hostinger-email-api-sdk';
+import { Pagination } from 'hostinger-mail-api-sdk';
 
 const instance: Pagination = {
     page,

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1WebhooksTestResultData } from 'hostinger-email-api-sdk';
+import { V1WebhooksTestResultData } from 'hostinger-mail-api-sdk';
 
 const instance: V1WebhooksTestResultData = {
     httpStatus,

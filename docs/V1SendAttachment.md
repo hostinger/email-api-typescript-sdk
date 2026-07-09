@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1SendAttachment } from 'hostinger-email-api-sdk';
+import { V1SendAttachment } from 'hostinger-mail-api-sdk';
 
 const instance: V1SendAttachment = {
     filename,

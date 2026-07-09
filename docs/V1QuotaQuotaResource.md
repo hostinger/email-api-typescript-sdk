@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1QuotaQuotaResource } from 'hostinger-email-api-sdk';
+import { V1QuotaQuotaResource } from 'hostinger-mail-api-sdk';
 
 const instance: V1QuotaQuotaResource = {
     resourceName,

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1FoldersCollection } from 'hostinger-email-api-sdk';
+import { V1FoldersCollection } from 'hostinger-mail-api-sdk';
 
 const instance: V1FoldersCollection = {
     data,

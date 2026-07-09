@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1QuotaQuota } from 'hostinger-email-api-sdk';
+import { V1QuotaQuota } from 'hostinger-mail-api-sdk';
 
 const instance: V1QuotaQuota = {
     quotas,

@@ -1,11 +1,11 @@
 {
-  "name": "hostinger-email-api-sdk",
-  "version": "1.0.1",
+  "name": "hostinger-mail-api-sdk",
+  "version": "1.0.2",
   "description": "Hostinger API TypeScript SDK",
   "author": "Hostinger",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hostinger/email-api-typescript-sdk.git"
+    "url": "https://github.com/hostinger/mail-api-typescript-sdk.git"
   },
   "keywords": [
     "hostinger",

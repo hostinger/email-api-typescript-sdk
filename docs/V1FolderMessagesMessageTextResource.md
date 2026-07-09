@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1FolderMessagesMessageTextResource } from 'hostinger-email-api-sdk';
+import { V1FolderMessagesMessageTextResource } from 'hostinger-mail-api-sdk';
 
 const instance: V1FolderMessagesMessageTextResource = {
     data,

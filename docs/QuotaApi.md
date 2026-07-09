@@ -17,7 +17,7 @@ Retrieve storage and message quota usage for the managed mailbox.
 import {
     QuotaApi,
     Configuration
-} from 'hostinger-email-api-sdk';
+} from 'hostinger-mail-api-sdk';
 
 const configuration = new Configuration();
 const apiInstance = new QuotaApi(configuration);

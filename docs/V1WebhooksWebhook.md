@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1WebhooksWebhook } from 'hostinger-email-api-sdk';
+import { V1WebhooksWebhook } from 'hostinger-mail-api-sdk';
 
 const instance: V1WebhooksWebhook = {
     id,

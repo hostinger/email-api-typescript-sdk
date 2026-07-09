@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```typescript
-import { V1FolderMessagesMessageAttachment } from 'hostinger-email-api-sdk';
+import { V1FolderMessagesMessageAttachment } from 'hostinger-mail-api-sdk';
 
 const instance: V1FolderMessagesMessageAttachment = {
     id,
