@@ -14,6 +14,8 @@ Name | Type | Description | Notes
 **text** | **string** |  | [optional] [default to undefined]
 **html** | **string** |  | [optional] [default to undefined]
 **attachments** | [**Array&lt;V1SendAttachment&gt;**](V1SendAttachment.md) |  | [optional] [default to undefined]
+**inReplyTo** | [**V1SendMessageRef**](V1SendMessageRef.md) | Source message this is a reply to. Copies its Message-Id/References into In-Reply-To/References and flags it \\Answered. Mutually exclusive with forwardOf. | [optional] [default to undefined]
+**forwardOf** | [**V1SendMessageRef**](V1SendMessageRef.md) | Source message this forwards. Copies its Message-Id/References into In-Reply-To/References and flags it $forwarded. Mutually exclusive with inReplyTo. | [optional] [default to undefined]
 
 ## Example
 
@@ -29,6 +31,8 @@ const instance: V1SendRequest = {
     text,
     html,
     attachments,
+    inReplyTo,
+    forwardOf,
 };
 ```
 
